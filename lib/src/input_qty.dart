@@ -369,7 +369,7 @@ class _InputQtyState extends State<InputQty> {
                   color: Theme.of(context)
                       .colorScheme
                       .onSurface
-                      .withAlpha(alpha: 0.38))),
+                      .withOpacity(0.38))),
       enabledBorder: widget.decoration.enabledBorder ?? defaultBorder,
       focusedBorder: widget.decoration.focusedBorder ?? defaultBorder,
       focusedErrorBorder:

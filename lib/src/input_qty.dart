@@ -365,11 +365,8 @@ class _InputQtyState extends State<InputQty> {
       contentPadding: widget.decoration.contentPadding,
       disabledBorder: widget.decoration.disabledBorder ??
           defaultBorder.copyWith(
-              borderSide: defaultBorder.borderSide.copyWith(
-                  color: Theme.of(context)
-                      .colorScheme
-                      .onSurface
-                      .withOpacity(0.38))),
+              borderSide: defaultBorder.borderSide
+                  .copyWith(color: Theme.of(context).colorScheme.onSurface)),
       enabledBorder: widget.decoration.enabledBorder ?? defaultBorder,
       focusedBorder: widget.decoration.focusedBorder ?? defaultBorder,
       focusedErrorBorder:
